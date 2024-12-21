@@ -1,42 +1,37 @@
 {
-    "default_server_config": {
-        "m.homeserver": {
-            "base_url": "https://matrix.isekai.rocks",
-            "server_name": "isekai.rocks | token: eris best girl"
-        },
-        "m.identity_server": {
-            "base_url": "https://vector.im"
-        }
+  "default_server_config": {
+    "m.homeserver": {
+      "base_url": "https://matrix.isekai.rocks",
+      "server_name": "isekai.rocks | token: eris best girl"
     },
-    "disable_custom_urls": true,
-    "disable_guests": true,
-    "disable_login_language_selector": false,
-    "disable_3pid_login": false,
-    "brand": "SchildiChat",
-    "integrations_ui_url": "https://scalar.vector.im/",
-    "integrations_rest_url": "https://scalar.vector.im/api",
-    "integrations_widgets_urls": [
-        "https://scalar.vector.im/_matrix/integrations/v1",
-        "https://scalar.vector.im/api",
-        "https://scalar-staging.vector.im/_matrix/integrations/v1",
-        "https://scalar-staging.vector.im/api",
-        "https://scalar-staging.riot.im/scalar/api"
-    ],
-    "default_country_code": "US",
-    "show_labs_settings": true,
-    "features": {},
-    "default_federate": true,
-    "default_theme": "dark",
-    "room_directory": {
-        "servers": ["ari.lt", "nadeko.net", "isekai.rocks", "matrix.org", "envs.net"]
-    },
-    "enable_presence_by_hs_url": {
-        "https://isekai.rocks": false,
-        "https://matrix.isekai.rocks": false
-    },
-    "setting_defaults": {
-        "breadcrumbs": true,
-            "custom_themes": [
+    "m.identity_server": {
+      "base_url": ""
+    }
+  },
+  "disable_custom_urls": false,
+  "disable_guests": true,
+  "disable_login_language_selector": false,
+  "disable_3pid_login": false,
+  "force_verification": false,
+  "brand": "SchildiChat",
+  "integrations_ui_url": "",
+  "integrations_rest_url": "",
+  "integrations_widgets_urls": "",
+  "default_widget_container_height": 280,
+  "default_country_code": "US",
+  "show_labs_settings": true,
+  "features": {},
+  "default_federate": true,
+  "default_theme": "dark",
+  "room_directory": {
+    "servers": [
+      "envs.net"
+    ]
+  },
+  "enable_presence_by_hs_url": "\n",
+  "setting_defaults": {
+    "breadcrumbs": true,
+    "custom_themes": [
       {
         "colors": {
           "accent-color": "#b58900",
@@ -740,14 +735,29 @@
         "name": "Dracula Flat"
       }
     ]
-    },
-    "jitsi": {
-        "preferred_domain": "us04web.zoom.us/s/4685522360"
-    },
-    "element_call": {
-        "url": "https://call.element.io",
-        "participant_limit": 8,
-        "brand": "Element Call"
-    },
-    "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx"
+  },
+  "jitsi": {
+    "preferred_domain": "jitsi.tildeverse.org"
+  },
+  "element_call": {
+    "url": "https://call.element.io",
+    "participant_limit": 8,
+    "brand": "Element Call"
+  },
+  "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx",
+  "branding": {
+    "auth_footer_links": [
+      {
+        "text": "ok",
+        "url": "https://isekai.rocks"
+      }
+    ],
+    "auth_header_logo_url": "themes/element/img/logos/element-logo.svg"
+  },
+  "bug_report_endpoint_url": "https://element.io/bugreports/submit",
+  "embedded_pages": {
+    "homeUrl": ""
+  },
+  "integrations_jitsi_widget_url": "",
+  "permalink_prefix": "https://matrix.to"
 }
