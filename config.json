@@ -1,14 +1,14 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://conduit.koesters.xyz",
-            "server_name": "The token is for_testing_only"
+            "base_url": "https://matrix.everypizza.im",
+            "server_name": "Chat"
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
         }
     },
-    "disable_custom_urls": true,
+    "disable_custom_urls": false,
     "disable_guests": true,
     "disable_login_language_selector": false,
     "disable_3pid_login": false,
@@ -28,11 +28,11 @@
     "default_federate": true,
     "default_theme": "dark",
     "room_directory": {
-        "servers": ["everypizza.im", "envs.net", "matrix.org"]
+        "servers": ["everypizza.im", "matrix.org"]
     },
     "enable_presence_by_hs_url": {
-        "https://conduit.rs": false,
-        "https://conduit.koesters.xyz": false
+        "https://everypizza.im": false,
+        "https://matrix.everypizza.im": false
     },
     "setting_defaults": {
         "breadcrumbs": true
